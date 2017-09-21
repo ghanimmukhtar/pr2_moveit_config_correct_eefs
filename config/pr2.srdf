@@ -91,7 +91,7 @@
     </group_state>
     <group_state name="head_down" group="head">
         <joint name="head_pan_joint" value="0" />
-        <joint name="head_tilt_joint" value="0.8" />
+        <joint name="head_tilt_joint" value="1.0" />
     </group_state>
     <group_state name="left_home" group="left_arm">
         <joint name="l_elbow_flex_joint" value="-1.44" />
