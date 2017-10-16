@@ -978,26 +978,6 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: false
-        approach_frame0:
-          Value: true
-        approach_frame1:
-          Value: true
-        approach_frame2:
-          Value: true
-        approach_frame3:
-          Value: true
-        approach_frame4:
-          Value: true
-        approach_frame5:
-          Value: true
-        approach_frame6:
-          Value: true
-        approach_frame7:
-          Value: true
-        approach_frame8:
-          Value: true
-        approach_frame9:
-          Value: true
         base_bellow_link:
           Value: false
         base_footprint:
@@ -1020,26 +1000,6 @@ Visualization Manager:
           Value: false
         double_stereo_link:
           Value: false
-        final_goal_frame0:
-          Value: false
-        final_goal_frame1:
-          Value: false
-        final_goal_frame2:
-          Value: false
-        final_goal_frame3:
-          Value: false
-        final_goal_frame4:
-          Value: false
-        final_goal_frame5:
-          Value: false
-        final_goal_frame6:
-          Value: false
-        final_goal_frame7:
-          Value: false
-        final_goal_frame8:
-          Value: false
-        final_goal_frame9:
-          Value: false
         fl_caster_l_wheel_link:
           Value: false
         fl_caster_r_wheel_link:
@@ -1052,8 +1012,6 @@ Visualization Manager:
           Value: false
         fr_caster_rotation_link:
           Value: false
-        goal_frame:
-          Value: true
         head_mount_kinect2_ir_link:
           Value: false
         head_mount_kinect2_ir_optical_frame:
@@ -1215,26 +1173,6 @@ Visualization Manager:
       Show Names: false
       Tree:
         odom_combined:
-          approach_frame0:
-            {}
-          approach_frame1:
-            {}
-          approach_frame2:
-            {}
-          approach_frame3:
-            {}
-          approach_frame4:
-            {}
-          approach_frame5:
-            {}
-          approach_frame6:
-            {}
-          approach_frame7:
-            {}
-          approach_frame8:
-            {}
-          approach_frame9:
-            {}
           base_footprint:
             base_link:
               base_bellow_link:
@@ -1367,28 +1305,6 @@ Visualization Manager:
                   {}
               torso_lift_motor_screw_link:
                 {}
-          final_goal_frame0:
-            {}
-          final_goal_frame1:
-            {}
-          final_goal_frame2:
-            {}
-          final_goal_frame3:
-            {}
-          final_goal_frame4:
-            {}
-          final_goal_frame5:
-            {}
-          final_goal_frame6:
-            {}
-          final_goal_frame7:
-            {}
-          final_goal_frame8:
-            {}
-          final_goal_frame9:
-            {}
-          goal_frame:
-            {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -1927,7 +1843,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom_combined
     Frame Rate: 30
   Name: root
   Tools:
