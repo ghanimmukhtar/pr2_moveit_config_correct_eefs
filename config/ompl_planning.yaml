@@ -113,6 +113,7 @@ planner_configs:
   RRTConnectkConfigDefault:
     type: geometric::RRTConnect
     range: 100000000
+    delay_collision_checking: 0
 
   LazyRRTkConfigDefault:
     type: geometric::LazyRRT
