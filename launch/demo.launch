@@ -17,6 +17,7 @@
     <!--node pkg="tf" type="static_transform_publisher" name="virtual_joint_broadcaster_0" args="0 0 0 0 0 0 odom_combined base_footprint 100" /-->
 
 
+
   <!-- We do not have a robot connected, so publish fake joint states -->
   <!--node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="/use_gui" value="false"/>
@@ -24,7 +25,7 @@
   </node-->
 
   <!-- Given the published joint states, publish tf for the robot links -->
-  <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" /-->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
 
   <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
   <include file="$(find pr2_moveit_config_correct_eefs)/launch/move_group.launch">
